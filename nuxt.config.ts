@@ -1,9 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
 
 import { Configuration } from '@nuxt/types'
-const config: Configuration = {
-
-  mode: 'spa',
+const config: Configuration = {  mode: 'spa',
   /*
    ** Headers of the page
    */
@@ -40,6 +38,7 @@ const config: Configuration = {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     '@nuxt/typescript-build',
+
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify'
@@ -84,5 +83,10 @@ const config: Configuration = {
    ** Build configuration
    */
   build: {
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
   }
 }
+export default config

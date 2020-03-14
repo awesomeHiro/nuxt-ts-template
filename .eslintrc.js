@@ -1,8 +1,8 @@
 module.exports = {
   root: true,
-  parser: 'vue-eslint-parser', // add
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: '@typescript-eslint/parser' // instead of 'babel-eslint' 
+    parser: '@typescript-eslint/parser'
   },
   env: {
     browser: true,

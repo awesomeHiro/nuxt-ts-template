@@ -1,4 +1,6 @@
 # nuxt-ts-template
+https://toragramming.com/programming/nuxt-js/nuxt-typescript-vscode-env-2019-09/
+https://toragramming.com/programming/nuxt-js/nuxt-typescript-vuex-how-to/
 
 > My breathtaking Nuxt.js project
 
